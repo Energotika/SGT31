@@ -1,4 +1,5 @@
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Stringexamples {
     public static void main(String[] args) {
@@ -57,5 +58,21 @@ public class Stringexamples {
         String longValue = "10000000000";
 
         System.out.println(Integer.parseInt(intValue));
+        //test comment
+
+        //trim method
+        System.out.println("t    thia ia test   ".trim());
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please eneter your password (qwert*)");
+        String pswd = scanner.nextLine().trim().toLowerCase();
+
+        if (pswd.equals("qwerty*")) {
+            System.out.print("Pswd correct");
+        }else {
+            System.out.println("Incorrect pswd");
+
+        }
+
     }
 }

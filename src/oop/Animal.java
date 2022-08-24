@@ -1,6 +1,6 @@
 package oop;
 
-public class Abimal {
+public class Animal {
     //fields
     private String type;
     private String bread;
@@ -8,14 +8,14 @@ public class Abimal {
     private int avgLifespan;
 
     //custom constructor
-    public Abimal(String type, String bread, float weight, int avgLifespan){
+    public Animal(String type, String bread, float weight, int avgLifespan){
         this.type = type;
         this.bread = bread;
         this.weight = weight;
         this.avgLifespan = avgLifespan;
 
     }
-    public Abimal(String type, String bread, float weight) {
+    public Animal(String type, String bread, float weight) {
         this.type = type;
         this.bread = bread;
         this.weight = weight;
